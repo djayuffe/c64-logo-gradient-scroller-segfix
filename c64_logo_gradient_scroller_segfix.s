@@ -1,13 +1,13 @@
 
-; deepseek_c64_v9_segfix.s
+; c64_logo_gradient_scroller_segfix.s
 ; PAL-safe, single-IRQ rasterbars + tiny SID arpeggio.
 ; Uses your embedded custom 1bpp hires charset at $2000 and prints:
 ;   "UBER CREW" (row 8) and "2025" (row 10) centered in white.
 ;
 ; Build:
-;   acme --strict-segments -f cbm -o deepseek_c64_v9_segfix.prg deepseek_c64_v9_segfix.s
+;   acme --strict-segments -f cbm -o c64_logo_gradient_scroller_segfix.prg c64_logo_gradient_scroller_segfix.s
 ; Run:
-;   x64sc -autostart deepseek_c64_v9_segfix.prg
+;   x64sc -autostart c64_logo_gradient_scroller_segfix.prg
 
 ; ---------------- BASIC stub: 10 SYS4608 ----------------
 * = $0801

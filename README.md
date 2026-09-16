@@ -1,4 +1,4 @@
-# DeepSeek C64 v9 Segfix
+# C64 v9 Segfix
 
 PAL C64 demo with dual charsets, centered logo text, gradient colors, raster
 bars, SID arpeggio, and a bottom scroller.
@@ -11,15 +11,15 @@ Requires ACME 0.97 or newer:
 make
 ```
 
-Output: `build/deepseek_c64_v9_segfix.prg`. Run with:
+Output: `build/c64_logo_gradient_scroller_segfix.prg`. Run with:
 
 ```sh
-x64sc -autostart build/deepseek_c64_v9_segfix.prg
+x64sc -autostart build/c64_logo_gradient_scroller_segfix.prg
 ```
 
 ## Repository layout
 
-- `deepseek_c64_v9_segfix.s` — corrected native-ACME source.
+- `c64_logo_gradient_scroller_segfix.s` — corrected native-ACME source.
 - `Makefile`, `AUDIT.md`, and `SHA256SUMS.txt` — build, audit, and integrity data.
 
 ## Audit summary
