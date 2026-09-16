@@ -1,4 +1,4 @@
-# C64 v9 Segfix
+# C64 - Logo Gradient Scroller (Segfix)
 
 ![C64 effect preview](docs/preview.png)
 
