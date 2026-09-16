@@ -27,3 +27,7 @@ x64sc -autostart build/c64_logo_gradient_scroller_segfix.prg
 Unsupported directives, the missing charset dependency, font/code overlap, and
 centered-row state loss were repaired. Charset placement remains `$2000`/
 `$2800`, with no external build inputs.
+## Documentation and license
+
+Function-level documentation is in docs/FUNCTIONS.md. The project is released
+under GPL-3.0; see LICENSE.
